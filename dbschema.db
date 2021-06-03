@@ -1,0 +1,8 @@
+CREATE DATABASE `overwatchscrim`;
+USE `overwatchscrim`; 
+CREATE TABLE  `scrimschedule` (
+`nativedatetime` DATETIME NOT NULL, 
+`krdatetime` DATETIME NOT NULL, 
+`teamname` CHAR(20) DEFAULT NULL,
+PRIMARY KEY(`krdatetime`)
+)ENGINE=InnoDB DEFAULT CHARSET=utf8; 

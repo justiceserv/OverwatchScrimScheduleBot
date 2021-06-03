@@ -1,0 +1,12 @@
+{
+    "token" : "Put your discord token here.",
+    "prefix" : "Put your prefix here.",
+    "apikey" : "Put your abstractapi.com api key here.",
+    "admins" : [
+        {"id" : "put admin's discord id here."}
+    ],
+    "nativecity" : "Put timezone of scrim.",
+    "targetcity" : "Put timezone of foreign players",
+    "mentionedrole" : "Put role's id that will be mentioned",
+    "sendingchannel" : "put discord channel's id that notification will be send."
+}
